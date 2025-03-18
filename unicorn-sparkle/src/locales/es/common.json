@@ -1,0 +1,129 @@
+{
+  "title": "Data Scientist & Data Analyst - Ignacio Arce",
+  "description": "Data Scientist & Data Analyst de Cordoba, Argentina. Especialista en Python, SQL, Power BI.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Ignacio Arce!",
+    "job_title": "<strong>Data Scientist & Data Analyst</strong> de Córdoba, Argentina.",
+    "description": "Especialista en Python, SQL, Power BI.",
+    "cta": "Contactame"
+  },
+  "experience": {
+    "title": "Experiencia Semi-profesional",
+    "jobs": {
+      "jobs_title": ["Igrowker"],
+      "jobs_description": [
+        {
+          "title": "Data Science & Data Analyst",
+          "time": ["sep 2024 - Nov 2024"],
+          "description": "En este proyecto fui Líder del área de Data Analytics, donde coordiné un equipo de 7 miembros especializados en análisis de datos...",
+          "list": [
+            "Limpieza y transformación de datos",
+            "Desarrollo de modelos de machine learning",
+            "Análisis de resultados de campañas",
+            "Despliegue en Streamlit"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Análisis y Consultoría para Inversión Gastrónomica",
+        "description": "El objetivo principal de este proyecto es simular una firma de consultoría empresarial...",
+        "image": "/src/images/projects/pipeline Proyecto FINAL.jpg",
+        "techs": ["Python", "GoogleCloud", "Docker", "Airflow", "Streamlit", "PowerBI"],
+        "code": {
+          "text": "Código",
+          "url": "https://github.com/IAIgnacioArce/henry_proyecto_final"
+        },
+        "preview": {
+          "text": "Vista previa",
+          "url": "https://github.com/IAIgnacioArce/henry_proyecto_final"
+        }
+      },
+      {
+        "title": "Análisis de Homicidios en Siniestros Viales en CABA",
+        "description": "En este proyecto he asumido el rol de Data Analyst...",
+        "image": "/src/images/projects/SINIESTROS VIALES.jpg",
+        "techs": ["Python", "PowerBI"],
+        "code": {
+          "text": "Código",
+          "url": "https://github.com/IAIgnacioArce/ProyectoSiniestrosViales"
+        },
+        "preview": {
+          "text": "Vista previa",
+          "url": "https://github.com/IAIgnacioArce/ProyectoSiniestrosViales"
+        }
+      },
+      {
+        "title": "Proyecto MLOps para Steam",
+        "description": "En este proyecto he asumido el rol de un Ingeniero MLOps para la plataforma de videojuegos Steam...",
+        "image": "/src/images/projects/STEAM.jpg",
+        "techs": ["Python", "FastApi"],
+        "code": {
+          "text": "Código",
+          "url": "https://github.com/IAIgnacioArce/Sistema_recomendacion_Steam"
+        },
+        "preview": {
+          "text": "Vista previa",
+          "url": "https://github.com/IAIgnacioArce/Sistema_recomendacion_Steam"
+        }
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Prácticas Voluntarias",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/Captura de pantalla 2025-03-18 154500.png",
+        "alt": "Teaching Assistant",
+        "title": "Teaching Assistant",
+        "description": "He tenido el privilegio de ser elegido como 𝐓𝐞𝐚𝐜𝐡𝐢𝐧𝐠 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭...",
+        "techs": ["Python", "PowerBI", "MySQL"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "📊💡🧠📚💻✍🏼📓",
+    "description": "Soy Data Scientist & Data Analyst. Actualmente estudio Ingeniería en Sistemas en la UTN y tengo un gran interés en Ciberseguridad..."
+  },
+  "contact": {
+    "title": "¿Listo para transformar datos en conocimiento?",
+    "subtitle": "Estoy abierto a nuevas oportunidades y colaboraciones. Hablemos sobre cómo puedo aportar a tu proyecto o equipo."
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    },
+    "developed": {
+      "developed_with": "Hecho con",
+      "developed_by": "por"
+    }
+  }
+}
