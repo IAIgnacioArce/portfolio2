@@ -27,12 +27,15 @@ const {
     </section>
     <section class="button-container">
 
+      <!-- Botón para enviar email -->
       <Button class="filled" href="mailto:nachitoarce11@gmail.com">{cta}</Button>
 
-      <Button href="https://www.linkedin.com/in/arceignacio/" target="_blank">
+      <!-- Botón para LinkedIn como <a> en lugar de <Button> -->
+      <a href="https://www.linkedin.com/in/arceignacio/" target="_blank" rel="noopener noreferrer" class="filled">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>
-      </Button>
+      </a>
+
     </section>
     <canvas id="stars"></canvas>
   </div>
@@ -155,3 +158,4 @@ const {
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
   new StarField(canvas)
 </script>
+pn

@@ -10,8 +10,8 @@ interface Props {
   title: string
   description: string
   techs: string[]
-  code: { text: string; url: { text: string; url: string } }
-  preview: { text: string; url: { text: string; url: string } }
+  code: { text: string; url: string }
+  preview: { text: string; url: string }
 }
 
 const { src, alt, title, description, techs, code, preview } = Astro.props
@@ -27,7 +27,7 @@ if (!images[src])
 
 <section class="card-project">
   <div>
-    <a href={preview.url} target="_blank" rel="noopener noreferrer">
+    <a href={preview?.url} target="_blank" rel="noopener noreferrer">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -40,7 +40,7 @@ if (!images[src])
   </div>
   <div class="description">
 
-    <h3><a href={preview.url} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+    <h3><a href={preview?.url} target="_blank" rel="noopener noreferrer">{title}</a></h3>
 
     <div class="badges">
       {
@@ -58,11 +58,11 @@ if (!images[src])
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href={code.url} target="_blank" rel="noopener noreferrer">
+      <a href={code?.url} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
         {code.text}
       </a>
-      <a href={preview.url} target="_blank" rel="noopener noreferrer">
+      <a href={preview?.url} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
         {preview.text}
       </a>
