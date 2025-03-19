@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Data Scientist & Data Analyst - Ignacio Arce",
+  "description": "Data Scientist & Data Analyst from Cordoba, Argentina. Specialist in Python, SQL, Power BI.",
   "navbar": [
     {
       "label": "Home",
@@ -8,40 +8,39 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "#experiencia-laboral"
     },
     {
       "label": "Projects",
-      "href": "/en/#projects"
+      "href": "#proyectos"
     },
     {
-      "label": "About me",
-      "href": "/en/#about-me"
+      "label": "About Me",
+      "href": "#sobre-mi"
     }
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hi, I'm Ignacio Arce!",
+    "job_title": "<strong>Data Scientist & Data Analyst</strong> from Córdoba, Argentina.",
+    "description": "Specialist in Python, SQL, Power BI.",
     "cta": "Contact me"
   },
   "experience": {
-    "title": "Work Experience",
+    "title": "Semi-professional Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Igrowker"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
-        },
-        {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Data Science & Data Analyst",
+          "time": ["Sep 2024 - Nov 2024"],
+          "description": "In this project, I was the Lead of the Data Analytics area, where I coordinated a team of 7 members specialized in data analysis. My main responsibilities included defining the scope of the analyses, structuring the data pipeline, and ensuring the accuracy of the insights generated. Additionally, I worked closely with other teams to integrate analytical solutions into decision-making processes.",
+          "list": [
+            "Data cleaning and transformation to improve data quality and reliability.",
+            "Development of machine learning models to optimize business strategies.",
+            "Analysis of campaign results to identify trends and actionable insights.",
+            "Deployment of solutions using Streamlit to make data accessible to stakeholders."
+          ]
         }
       ]
     }
@@ -50,67 +49,65 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
-      },
-      {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "title": "Analysis and Consulting for Gastronomic Investment",
+        "description": "The main objective of this project is to simulate a business consulting firm specialized in analyzing the profitability and feasibility of gastronomic investments. We developed a data-driven model that allows investors to evaluate potential restaurant locations, predict profitability, and optimize resource allocation. The project integrates data extraction, cleaning, and predictive modeling techniques to provide valuable insights for decision-making.",
+        "image": "/src/images/projects/pipeline Proyecto FINAL.jpg",
         "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
+          "Python",
+          "GoogleCloud",
+          "Docker",
+          "Airflow",
+          "Streamlit",
+          "PowerBI"
         ],
-        "code": "Code",
-        "preview": "Preview"
+        "code": {
+          "text": "Code",
+          "url": "https://github.com/IAIgnacioArce/henry_proyecto_final"
+        },
+        "preview": {
+          "text": "Preview",
+          "url": "https://github.com/IAIgnacioArce/henry_proyecto_final"
+        }
+      },
+      {
+        "title": "Homicide Analysis in Traffic Accidents in Buenos Aires",
+        "description": "In this project, I took on the role of Data Analyst to analyze the impact of traffic accidents resulting in fatalities in Buenos Aires. The objective was to identify patterns, risk factors, and high-incident areas to support public policies and accident prevention strategies. I processed large datasets, created interactive Power BI dashboards, and provided data-driven recommendations for improving road safety.",
+        "image": "/src/images/projects/SINIESTROS VIALES.jpg",
+        "techs": ["Python", "PowerBI"],
+        "code": {
+          "text": "Code",
+          "url": "https://github.com/IAIgnacioArce/ProyectoSiniestrosViales"
+        },
+        "preview": {
+          "text": "Preview",
+          "url": "https://github.com/IAIgnacioArce/ProyectoSiniestrosViales"
+        }
+      },
+      {
+        "title": "MLOps Project for Steam",
+        "description": "In this project, I took on the role of an MLOps Engineer for the Steam gaming platform. The objective was to deploy a recommendation system capable of suggesting games based on user preferences and behavior. The system was developed using Python and FastAPI, implementing automated pipelines for data ingestion, model training, and deployment. The project also included monitoring and continuous integration processes to ensure optimal performance and scalability.",
+        "image": "/src/images/projects/STEAM.jpg",
+        "techs": ["Python", "FastApi"],
+        "code": {
+          "text": "Code",
+          "url": "https://github.com/IAIgnacioArce/Sistema_recomendacion_Steam"
+        },
+        "preview": {
+          "text": "Preview",
+          "url": "https://github.com/IAIgnacioArce/Sistema_recomendacion_Steam"
+        }
       }
     ]
   },
   "contributions": {
-    "title": "Contributions",
+    "title": "Voluntary Practices",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "src": "/src/images/contributions/Captura de pantalla 2025-03-18 154500.png",
+        "alt": "Teaching Assistant",
+        "title": "Teaching Assistant",
+        "description": "I had the privilege of being chosen as a Teaching Assistant, where I guided students in their learning process in the field of data science. My responsibilities included mentoring, resolving technical doubts, and assisting in project evaluations. This experience allowed me to strengthen my communication skills and reinforce my knowledge by teaching others.",
+        "techs": ["Python", "PowerBI", "MySQL"],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -118,13 +115,13 @@
     ]
   },
   "about": {
-    "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "title": "About Me",
+    "subtitle": "📊💡🧠📚💻✍🏼📓",
+    "description": "I am a Data Scientist & Data Analyst passionate about transforming data into valuable insights. I am currently studying Systems Engineering at UTN and have a strong interest in Cybersecurity, Artificial Intelligence, and Data Engineering. My goal is to leverage my analytical and programming skills to develop innovative solutions that contribute to business decision-making. I enjoy learning new technologies and working on challenging projects that allow me to grow professionally."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "title": "Ready to turn data into knowledge?",
+    "subtitle": "I am open to new opportunities and collaborations. Let's talk about how I can contribute to your project or team."
   },
   "footer": {
     "designed": {

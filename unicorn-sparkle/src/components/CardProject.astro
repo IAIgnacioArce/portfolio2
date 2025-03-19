@@ -10,8 +10,8 @@ interface Props {
   title: string
   description: string
   techs: string[]
-  code: { text: string; url: string }
-  preview: { text: string; url: string }
+  code: { text: string; url: { text: string; url: string } }
+  preview: { text: string; url: { text: string; url: string } }
 }
 
 const { src, alt, title, description, techs, code, preview } = Astro.props
@@ -39,7 +39,9 @@ if (!images[src])
     </a>
   </div>
   <div class="description">
+
     <h3><a href={preview.url} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+
     <div class="badges">
       {
         techs.map((tech) => {
